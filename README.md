@@ -1,0 +1,1 @@
+This project sets up a basic system where any new file uploaded to an S3 bucket triggers a Lambda function. The Lambda function processes the event and sends a notification through SNS, ensuring you are alerted whenever a new file is added. This setup is useful for scenarios where monitoring file uploads is critical, such as tracking document submissions or new data uploads.
