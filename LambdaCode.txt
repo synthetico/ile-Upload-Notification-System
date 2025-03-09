@@ -16,7 +16,7 @@ def lambda_handler(event, context):
     
     # Publish the message to SNS
     response = sns_client.publish(
-        TopicArn='arn:aws:sns:us-east-1:587760875876:csa06',
+        TopicArn='arn:aws:sns:us-east-1:587760875876:csa06', #include your topic ARN here
         Message=message,
         Subject='S3 File Upload Notification'
     )
